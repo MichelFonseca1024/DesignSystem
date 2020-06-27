@@ -1,0 +1,26 @@
+
+/*Headers*/
+.header {
+  line-height: 100%;
+  font-weight: 400;
+}
+
+.h1.header {
+  font-size: 121pt;
+}
+
+.h2.header {
+  font-size: 81pt;
+}
+
+.h3.header {
+  font-size: 54pt;
+}
+
+.h4.header {
+  font-size: 54pt;
+}
+
+.h5.header {
+  font-size: 36pt;
+}

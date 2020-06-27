@@ -1,0 +1,15 @@
+/*paragraph*/
+
+p[paragraph]{
+    font-weight: 400;
+    line-height: 125%;
+    margin: 24pt 0;
+    font-size: 16pt;
+    color: black;
+}
+
+p[paragraph="big"]{
+    font-size: 20pt;
+}
+
+
