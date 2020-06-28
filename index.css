@@ -1,4 +1,197 @@
-@import "color.css";
-@import "header.css";
-@import "paragraph.css";
-@import 'typography.css';
+/*
+header
+color
+paragraph
+typography
+*/
+
+/*variables*/
+
+:root {
+  /*Primary Colors*/
+  --B200: #0084F8;
+  --D400: #001B36;
+  --White: #FFFFFF;
+
+  /*Secondary Colors*/
+  --B100: #58c2f1;
+  --R100: #ff8576;
+  --G100: #47c2b1;
+  --D100: #f0f5f9;
+  --D200: #c9d6df;
+  --D300: #52616b;
+}
+
+/*Headers*/
+.header {
+  line-height: 100%;
+  font-weight: 400;
+}
+
+.h1.header {
+  font-size: 121pt;
+}
+
+.h2.header {
+  font-size: 81pt;
+}
+
+.h3.header {
+  font-size: 54pt;
+}
+
+.h4.header {
+  font-size: 54pt;
+}
+
+.h5.header {
+  font-size: 36pt;
+}
+
+/*Primary*/
+
+[bg-primary="B200"] {
+  background-color: var(--B200);
+}
+
+[bg-primary="D400"] {
+  background-color: var(--D400) ;
+}
+
+[bg-primary="white"] {
+  background-color: var(--White);
+}
+
+/*Secondary*/
+
+[bg-secondary="B100"] {
+  background-color: var(--B100);
+}
+
+[bg-secondary="R100"] {
+  background-color: var(--R100);
+}
+
+[bg-secondary="G100"] {
+  background-color: var(--G100);
+}
+
+[bg-secondary="D100"] {
+  background-color: var(--D100);
+}
+
+[bg-secondary="D200"] {
+  background-color: var(--D200);
+}
+
+[bg-secondary="D300"] {
+  background-color: var(--D300);
+}
+
+/*opacity*/
+
+[opacity="0"] {
+  opacity: 0;
+}
+
+[opacity="10"] {
+  opacity: 0.1;
+}
+
+[opacity="20"] {
+  opacity: 0.2;
+}
+
+[opacity="30"] {
+  opacity: 0.3;
+}
+
+[opacity="40"] {
+  opacity: 0.4;
+}
+
+[opacity="50"] {
+  opacity: 0.5;
+}
+
+[opacity="60"] {
+  opacity: 0.6;
+}
+
+[opacity="70"] {
+  opacity: 0.7;
+}
+
+[opacity="80"] {
+  opacity: 0.8;
+}
+
+[opacity="90"] {
+  opacity: 0.9;
+}
+
+[opacity="100"] {
+  opacity: 1;
+}
+
+/*paragraph*/
+
+p[paragraph] {
+  line-height: 125%;
+  margin: 24pt 0;
+  font-size: 16pt;
+  color: black;
+}
+
+p[paragraph="big"] {
+  font-size: 20pt;
+}
+
+/*Font families*/
+
+/*Open Sans*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+
+[open-sans] {
+  font-family: "Open Sans", sans-serif;
+}
+
+[open-sans="light"] {
+  font-weight: 300;
+}
+
+[open-sans="regular"] {
+  font-weight: 400;
+}
+
+[open-sans="semi-bold"] {
+  font-weight: 600;
+}
+
+[open-sans="bold"] {
+  font-weight: 700;
+}
+
+[open-sans="extra-bold"] {
+  font-weight: 800;
+}
+
+/*Raleway*/
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap");
+
+[raleway] {
+  font-family: "Raleway", sans-serif;
+}
+
+[raleway="light"] {
+  font-weight: 300;
+}
+
+[raleway="medium"] {
+  font-weight: 500;
+}
+
+[raleway="bold"] {
+  font-weight: 700;
+}
+
