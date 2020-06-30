@@ -50,41 +50,41 @@ typography
 
 /*Primary*/
 
-[bg-primary="B200"] {
+.bg-primary-B200{
   background-color: var(--B200);
 }
 
-[bg-primary="D400"] {
+.bg-primary-D400{
   background-color: var(--D400) ;
 }
 
-[bg-primary="white"] {
+.bg-primary-white{
   background-color: var(--White);
 }
 
 /*Secondary*/
 
-[bg-secondary="B100"] {
+.bg-secondary-B100{
   background-color: var(--B100);
 }
 
-[bg-secondary="R100"] {
+.bg-secondary-R100{
   background-color: var(--R100);
 }
 
-[bg-secondary="G100"] {
+.bg-secondary-G100{
   background-color: var(--G100);
 }
 
-[bg-secondary="D100"] {
+.bg-secondary-D100{
   background-color: var(--D100);
 }
 
-[bg-secondary="D200"] {
+.bg-secondary-D200{
   background-color: var(--D200);
 }
 
-[bg-secondary="D300"] {
+.bg-secondary-D300{
   background-color: var(--D300);
 }
 
@@ -193,5 +193,18 @@ p[paragraph="big"] {
 
 [raleway="bold"] {
   font-weight: 700;
+}
+  /*Gradients*/
+
+.gradient-b200-d400{
+  background: linear-gradient(to right, var(--B200), var(--D400));
+}
+
+.gradient-b200-b100{
+  background: linear-gradient(to right, var(--B200), var(--B100));
+}
+
+.gradient-b200-r100{
+  background: linear-gradient(to right, var(--B200), var(--R100));
 }
 
