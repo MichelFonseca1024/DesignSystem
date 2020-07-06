@@ -1,8 +1,24 @@
 /*
-header
-color
-paragraph
 typography
+  --Font families
+  --Links*
+  --Other*
+  --Headers
+  --Paragraph
+
+Color
+  --Primary
+  --Secondary
+  --Gradients
+  --Opacity
+  --Tints
+  --Shades
+
+Shapes
+  --Border
+  --Style
+  --
+
 */
 
 /*variables*/
@@ -21,131 +37,6 @@ typography
   --D200: #c9d6df;
   --D300: #52616b;
 }
-
-/*Headers*/
-.header {
-  line-height: 100%;
-  font-weight: 400;
-}
-
-.h1.header {
-  font-size: 121pt;
-}
-
-.h2.header {
-  font-size: 81pt;
-}
-
-.h3.header {
-  font-size: 54pt;
-}
-
-.h4.header {
-  font-size: 54pt;
-}
-
-.h5.header {
-  font-size: 36pt;
-}
-
-/*Primary*/
-
-.bg-primary-B200 {
-  background-color: var(--B200);
-}
-
-.bg-primary-D400 {
-  background-color: var(--D400);
-}
-
-.bg-primary-white {
-  background-color: var(--White);
-}
-
-/*Secondary*/
-
-.bg-secondary-B100 {
-  background-color: var(--B100);
-}
-
-.bg-secondary-R100 {
-  background-color: var(--R100);
-}
-
-.bg-secondary-G100 {
-  background-color: var(--G100);
-}
-
-.bg-secondary-D100 {
-  background-color: var(--D100);
-}
-
-.bg-secondary-D200 {
-  background-color: var(--D200);
-}
-
-.bg-secondary-D300 {
-  background-color: var(--D300);
-}
-
-/*opacity*/
-
-.opacity-0 {
-  opacity: 0;
-}
-
-.opacity-10 {
-  opacity: 0.1;
-}
-
-.opacity-20 {
-  opacity: 0.2;
-}
-
-.opacity-30 {
-  opacity: 0.3;
-}																																																			
-
-.opacity-40 {
-  opacity: 0.4;
-}
-
-.opacity-50 {
-  opacity: 0.5;
-}
-
-.opacity-60 {
-  opacity: 0.6;
-}
-
-.opacity-70 {
-  opacity: 0.7;
-}
-
-.opacity-80 {
-  opacity: 0.8;
-}
-
-.opacity-90 {
-  opacity: 0.9;
-}
-
-.opacity-100 {
-  opacity: 1;
-}
-
-/*paragraph*/
-
-p[paragraph] {
-  line-height: 125%;
-  margin: 24pt 0;
-  font-size: 16pt;
-}
-
-p[paragraph="big"] {
-  font-size: 20pt;
-}
-
 /*Font families*/
 
 /*Open Sans*/
@@ -193,18 +84,172 @@ p[paragraph="big"] {
 [raleway="bold"] {
   font-weight: 700;
 }
+
+/*Links*/
+a.link {
+  font-size: 1rem;
+  line-height: 125%;
+  display: flex;
+  align-items: center;
+  color: var(--B200);
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+a.link:hover {
+  color: var(--B100);
+}
+
+/*Other*/
+.label {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--D400);
+}
+
+/*Headers*/
+.header {
+  line-height: 100%;
+  font-weight: 400;
+}
+
+h1.header {
+  font-size: 121pt;
+}
+
+h2.header {
+  font-size: 81pt;
+}
+
+h3.header {
+  font-size: 54pt;
+}
+
+h4.header {
+  font-size: 54pt;
+}
+
+h5.header {
+  font-size: 36pt;
+}
+
+/*paragraph*/
+
+p[paragraph] {
+  line-height: 125%;
+  margin: 24pt 0;
+  font-size: 16pt;
+}
+
+p[paragraph="big"] {
+  font-size: 20pt;
+}
+
+/*Colors*/
+
+/*Primary*/
+
+.bg-primary-B200 {
+  background-color: var(--B200);
+}
+
+.bg-primary-D400 {
+  background-color: var(--D400);
+}
+
+.bg-primary-white {
+  background-color: var(--White);
+}
+
+/*Secondary*/
+
+.bg-secondary-B100 {
+  background-color: var(--B100);
+}
+
+.bg-secondary-R100 {
+  background-color: var(--R100);
+}
+
+.bg-secondary-G100 {
+  background-color: var(--G100);
+}
+
+.bg-secondary-D100 {
+  background-color: var(--D100);
+}
+
+.bg-secondary-D200 {
+  background-color: var(--D200);
+}
+
+.bg-secondary-D300 {
+  background-color: var(--D300);
+}
+
 /*Gradients*/
 
 .gradient-b200-d400 {
-  background: linear-gradient(to right, var(--B200), var(--D400));
+  background: linear-gradient(74.02deg, var(--B200) 9.02%, var(--D400) 90.81%);
 }
 
 .gradient-b200-b100 {
-  background: linear-gradient(to right, var(--B200), var(--B100));
+  background: linear-gradient(74.02deg, var(--B200) 9.02%, var(--B100) 90.81%);
 }
 
 .gradient-b200-r100 {
-  background: linear-gradient(to right, var(--B200), var(--R100));
+  background: linear-gradient(74.02deg, var(--B200) 9.02%, var(--R100) 90.81%);
+}
+
+/*opacity*/
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.opacity-10 {
+  opacity: 0.1;
+}
+
+.opacity-20 {
+  opacity: 0.2;
+}
+
+.opacity-30 {
+  opacity: 0.3;
+}
+
+.opacity-40 {
+  opacity: 0.4;
+}
+
+.opacity-50 {
+  opacity: 0.5;
+}
+
+.opacity-60 {
+  opacity: 0.6;
+}
+
+.opacity-70 {
+  opacity: 0.7;
+}
+
+.opacity-80 {
+  opacity: 0.8;
+}
+
+.opacity-90 {
+  opacity: 0.9;
+}
+
+.opacity-100 {
+  opacity: 1;
 }
 
 /*Tints*/
@@ -556,343 +601,457 @@ p[paragraph="big"] {
 /*B100*/
 
 .shade-b200-10 {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), var(--B200);
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    var(--B200);
 }
 
 .shade-b200-20 {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), var(--B200);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    var(--B200);
 }
 
 .shade-b200-30 {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), var(--B200);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    var(--B200);
 }
 
 .shade-b200-40 {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), var(--B200);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    var(--B200);
 }
 
 .shade-b200-50 {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--B200);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    var(--B200);
 }
 
 .shade-b200-60 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), var(--B200);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    var(--B200);
 }
 
 .shade-b200-70 {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), var(--B200);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    var(--B200);
 }
 
 .shade-b200-80 {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), var(--B200);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    var(--B200);
 }
 
 .shade-b200-90 {
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), var(--B200);
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    var(--B200);
 }
 
 /*D400*/
 
 .shade-d400-10 {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), var(--D400);
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    var(--D400);
 }
 
 .shade-d400-20 {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), var(--D400);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    var(--D400);
 }
 
 .shade-d400-30 {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), var(--D400);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    var(--D400);
 }
 
 .shade-d400-40 {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), var(--D400);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    var(--D400);
 }
 
 .shade-d400-50 {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--D400);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    var(--D400);
 }
 
 .shade-d400-60 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), var(--D400);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    var(--D400);
 }
 
 .shade-d400-70 {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), var(--D400);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    var(--D400);
 }
 
 .shade-d400-80 {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), var(--D400);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    var(--D400);
 }
 
 .shade-d400-90 {
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), var(--D400);
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    var(--D400);
 }
 
 /*White*/
 
 .shade-white-10 {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), var(--White);
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    var(--White);
 }
 
 .shade-white-20 {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), var(--White);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    var(--White);
 }
 
 .shade-white-30 {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), var(--White);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    var(--White);
 }
 
 .shade-white-40 {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), var(--White);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    var(--White);
 }
 
 .shade-white-50 {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--White);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    var(--White);
 }
 
 .shade-white-60 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), var(--White);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    var(--White);
 }
 
 .shade-white-70 {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), var(--White);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    var(--White);
 }
 
 .shade-white-80 {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), var(--White);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    var(--White);
 }
 
 .shade-white-90 {
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), var(--White);
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    var(--White);
 }
 
 /*B100*/
 
 .shade-b100-10 {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), var(--B100);
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    var(--B100);
 }
 
 .shade-b100-20 {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), var(--B100);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    var(--B100);
 }
 
 .shade-b100-30 {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), var(--B100);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    var(--B100);
 }
 
 .shade-b100-40 {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), var(--B100);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    var(--B100);
 }
 
 .shade-b100-50 {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--B100);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    var(--B100);
 }
 
 .shade-b100-60 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), var(--B100);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    var(--B100);
 }
 
 .shade-b100-70 {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), var(--B100);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    var(--B100);
 }
 
 .shade-b100-80 {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), var(--B100);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    var(--B100);
 }
 
 .shade-b100-90 {
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), var(--B100);
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    var(--B100);
 }
 
 /*R100*/
 
 .shade-r100-10 {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), var(--R100);
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    var(--R100);
 }
 
 .shade-r100-20 {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), var(--R100);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    var(--R100);
 }
 
 .shade-r100-30 {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), var(--R100);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    var(--R100);
 }
 
 .shade-r100-40 {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), var(--R100);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    var(--R100);
 }
 
 .shade-r100-50 {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--R100);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    var(--R100);
 }
 
 .shade-r100-60 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), var(--R100);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    var(--R100);
 }
 
 .shade-r100-70 {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), var(--R100);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    var(--R100);
 }
 
 .shade-r100-80 {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), var(--R100);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    var(--R100);
 }
 
 .shade-r100-90 {
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), var(--R100);
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    var(--R100);
 }
 
 /*G100*/
 
 .shade-g100-10 {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), var(--G100);
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    var(--G100);
 }
 
 .shade-g100-20 {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), var(--G100);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    var(--G100);
 }
 
 .shade-g100-30 {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), var(--G100);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    var(--G100);
 }
 
 .shade-g100-40 {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), var(--G100);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    var(--G100);
 }
 
 .shade-g100-50 {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--G100);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    var(--G100);
 }
 
 .shade-g100-60 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), var(--G100);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    var(--G100);
 }
 
 .shade-g100-70 {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), var(--G100);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    var(--G100);
 }
 
 .shade-g100-80 {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), var(--G100);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    var(--G100);
 }
 
 .shade-g100-90 {
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), var(--G100);
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    var(--G100);
 }
 
 /*D100*/
 
 .shade-d100-10 {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), var(--D100);
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    var(--D100);
 }
 
 .shade-d100-20 {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), var(--D100);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    var(--D100);
 }
 
 .shade-d100-30 {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), var(--D100);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    var(--D100);
 }
 
 .shade-d100-40 {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), var(--D100);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    var(--D100);
 }
 
 .shade-d100-50 {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--D100);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    var(--D100);
 }
 
 .shade-d100-60 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), var(--D100);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    var(--D100);
 }
 
 .shade-d100-70 {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), var(--D100);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    var(--D100);
 }
 
 .shade-d100-80 {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), var(--D100);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    var(--D100);
 }
 
 .shade-d100-90 {
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), var(--D100);
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    var(--D100);
 }
-
 
 /*D200*/
 .shade-d200-10 {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), var(--D200);
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    var(--D200);
 }
 
 .shade-d200-20 {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), var(--D200);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    var(--D200);
 }
 
 .shade-d200-30 {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), var(--D200);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    var(--D200);
 }
 
 .shade-d200-40 {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), var(--D200);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    var(--D200);
 }
 
 .shade-d200-50 {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--D200);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    var(--D200);
 }
 
 .shade-d200-60 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), var(--D200);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    var(--D200);
 }
 
 .shade-d200-70 {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), var(--D200);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    var(--D200);
 }
 
 .shade-d200-80 {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), var(--D200);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    var(--D200);
 }
 
 .shade-d200-90 {
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), var(--D200);
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    var(--D200);
 }
-
 
 /*D300*/
 
 .shade-d300-10 {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), var(--D300);
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    var(--D300);
 }
 
 .shade-d300-20 {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), var(--D300);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    var(--D300);
 }
 
 .shade-d300-30 {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), var(--D300);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    var(--D300);
 }
 
 .shade-d300-40 {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), var(--D300);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    var(--D300);
 }
 
 .shade-d300-50 {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--D300);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    var(--D300);
 }
 
 .shade-d300-60 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), var(--D300);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    var(--D300);
 }
 
 .shade-d300-70 {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), var(--D300);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    var(--D300);
 }
 
 .shade-d300-80 {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), var(--D300);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    var(--D300);
 }
 
 .shade-d300-90 {
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), var(--D300);
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    var(--D300);
 }
 
+/*Shapes*/
+
+/*Border*/
+.border {
+  border: 2px solid var(--D200);
+  box-sizing: border-box;
+}
+
+.border-hard {
+  border-radius: 0px;
+}
+
+.border-soft {
+  border-radius: 8px;
+}
+
+.border-round {
+  border-radius: 100px;
+}
+
+.border-soft-left {
+  border-radius: 8px 0px 0px 8px;
+}
+
+.border-soft-right {
+  border-radius: 0px 8px 8px 0px;
+}
+
+.border-round-left {
+  border-radius: 100px 0px 0px 100px;
+}
+
+.border-round-right {
+  border-radius: 0px 100px 100px 0px;
+}
