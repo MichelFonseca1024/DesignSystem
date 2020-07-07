@@ -1106,8 +1106,37 @@ p[paragraph="big"] {
 
 /* Layer blur */
 
+.layer-blur-1 {
+  filter: blur(1px);
+}
 
+.layer-blur-2 {
+  filter: blur(2px);
+}
 
+.layer-blur-3 {
+  filter: blur(3px);
+}
 
+.layer-blur-4 {
+  filter: blur(4px);
+}
 
+/*background-blur*/
+
+.background-blur-1 {
+  backdrop-filter: blur(4px);
+}
+
+.background-blur-2 {
+  backdrop-filter: blur(8px);
+}
+
+.background-blur-3 {
+  backdrop-filter: blur(16px);
+}
+
+.background-blur-4 {
+  backdrop-filter: blur(24px);
+}
 
