@@ -19,10 +19,7 @@ Shapes
   --Style
 
 Patterns
-  --
-  
-Svgs
-  --
+  --Svgs
 
 Effects
   --Drop shadows
@@ -1081,8 +1078,10 @@ p[paragraph="big"] {
 }
 
 /*Patterns*/
+.svg{
+  background-color: var(--D400);
+}
 
-/*SVG’s*/
 
 /*Effects*/
 
@@ -1140,3 +1139,28 @@ p[paragraph="big"] {
   backdrop-filter: blur(24px);
 }
 
+/* Cover overlay */
+
+.overlay-multiply{
+  mix-blend-mode: multiply;
+}
+
+.overlay-burn{
+  mix-blend-mode: color-burn;
+}
+
+.overlay-screen{
+  mix-blend-mode: screen;
+}
+
+.overlay-hd-light{
+  mix-blend-mode: hard-light;
+}
+
+.overlay-diff{
+  mix-blend-mode: difference;
+}
+
+.overlay-color{
+  mix-blend-mode: color;
+}
