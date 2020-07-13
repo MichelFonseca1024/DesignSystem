@@ -123,26 +123,37 @@ a.link:hover {
 .header {
   line-height: 100%;
   font-weight: 400;
+  display: flex;
+  align-items: center;
 }
 
-h1.header {
+.header > * {
+  line-height: 100%;
+}
+
+.header h1 {
   font-size: 121pt;
+  margin: 0;
 }
 
-h2.header {
+.header h2 {
   font-size: 81pt;
+  margin: 0;
 }
 
-h3.header {
+.header h3 {
   font-size: 54pt;
+  margin: 0;
 }
 
-h4.header {
+.header h4 {
   font-size: 54pt;
+  margin: 0;
 }
 
-h5.header {
+.header h5 {
   font-size: 36pt;
+  margin: 0;
 }
 
 /*paragraph*/
@@ -1064,24 +1075,26 @@ p[paragraph="big"] {
 }
 
 /*Border Style*/
+.border-default{
+  border: 2px solid var(--D200);
+}
 
-.state-active {
+.border-active {
   border-color: var(--B200);
 }
 
-.state-success {
+.border-success {
   border-color: var(--G100);
 }
 
-.state-error {
+.border-error {
   border-color: var(--R100);
 }
 
 /*Patterns*/
-.svg{
+.svg {
   background-color: var(--D400);
 }
-
 
 /*Effects*/
 
@@ -1141,26 +1154,26 @@ p[paragraph="big"] {
 
 /* Cover overlay */
 
-.overlay-multiply{
+.overlay-multiply {
   mix-blend-mode: multiply;
 }
 
-.overlay-burn{
+.overlay-burn {
   mix-blend-mode: color-burn;
 }
 
-.overlay-screen{
+.overlay-screen {
   mix-blend-mode: screen;
 }
 
-.overlay-hd-light{
+.overlay-hd-light {
   mix-blend-mode: hard-light;
 }
 
-.overlay-diff{
+.overlay-diff {
   mix-blend-mode: difference;
 }
 
-.overlay-color{
+.overlay-color {
   mix-blend-mode: color;
 }
