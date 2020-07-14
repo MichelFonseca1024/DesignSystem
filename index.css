@@ -172,11 +172,11 @@ p[paragraph="big"] {
 
 /*Primary*/
 
-.bg-primary-B200 {
+.bg-primary-b200 {
   background-color: var(--B200);
 }
 
-.bg-primary-D400 {
+.bg-primary-d400 {
   background-color: var(--D400);
 }
 
@@ -186,27 +186,27 @@ p[paragraph="big"] {
 
 /*Secondary*/
 
-.bg-secondary-B100 {
+.bg-secondary-b100 {
   background-color: var(--B100);
 }
 
-.bg-secondary-R100 {
+.bg-secondary-r100 {
   background-color: var(--R100);
 }
 
-.bg-secondary-G100 {
+.bg-secondary-g100 {
   background-color: var(--G100);
 }
 
-.bg-secondary-D100 {
+.bg-secondary-d100 {
   background-color: var(--D100);
 }
 
-.bg-secondary-D200 {
+.bg-secondary-d200 {
   background-color: var(--D200);
 }
 
-.bg-secondary-D300 {
+.bg-secondary-d300 {
   background-color: var(--D300);
 }
 
