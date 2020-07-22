@@ -172,41 +172,41 @@ p[paragraph="big"] {
 
 /*Primary*/
 
-.bg-primary-b200 {
+.bg-b200 {
   background-color: var(--B200);
 }
 
-.bg-primary-d400 {
+.bg-d400 {
   background-color: var(--D400);
 }
 
-.bg-primary-white {
+.bg-white {
   background-color: var(--White);
 }
 
 /*Secondary*/
 
-.bg-secondary-b100 {
+.bg-b100 {
   background-color: var(--B100);
 }
 
-.bg-secondary-r100 {
+.bg-r100 {
   background-color: var(--R100);
 }
 
-.bg-secondary-g100 {
+.bg-g100 {
   background-color: var(--G100);
 }
 
-.bg-secondary-d100 {
+.bg-d100 {
   background-color: var(--D100);
 }
 
-.bg-secondary-d200 {
+.bg-d200 {
   background-color: var(--D200);
 }
 
-.bg-secondary-d300 {
+.bg-d300 {
   background-color: var(--D300);
 }
 
@@ -1075,7 +1075,7 @@ p[paragraph="big"] {
 }
 
 /*Border Style*/
-.border-default{
+.border-default {
   border: 2px solid var(--D200);
 }
 
@@ -1094,6 +1094,7 @@ p[paragraph="big"] {
 /*Patterns*/
 .svg {
   background-color: var(--D400);
+  width: 100%;
 }
 
 /*Effects*/
@@ -1177,3 +1178,34 @@ p[paragraph="big"] {
 .overlay-color {
   mix-blend-mode: color;
 }
+
+/*tools*/
+.tool {
+  width: 100%;
+  height: 100%;
+}
+
+.dribbble {
+  content: url("tools/dribbble.svg");
+}
+
+.avocode {
+  content: url("tools/avocode.svg");
+}
+
+.figma {
+  content: url("tools/figma.svg");
+}
+
+.framer {
+  content: url("tools/framer.svg");
+}
+
+.sketch {
+  content: url("tools/sketch.svg");
+}
+
+.zeplin {
+  content: url("tools/zeplin.svg");
+}
+

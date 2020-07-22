@@ -1,0 +1,11 @@
+<svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.01">
+<path opacity="0.01" d="M56 0H0V56H56V0Z" fill="white"/>
+</g>
+<path opacity="0.15" fill-rule="evenodd" clip-rule="evenodd" d="M36.8002 28C36.8002 32.8592 32.8594 36.8 28.0002 36.8C23.1394 36.8 19.2002 32.8592 19.2002 28C19.2002 23.1392 23.1394 19.2 28.0002 19.2C32.8594 19.2 36.8002 23.1392 36.8002 28Z" fill="#231F1F"/>
+<path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M36.8002 28C36.8002 32.8592 32.8594 36.8 28.0002 36.8C23.1394 36.8 19.2002 32.8592 19.2002 28C19.2002 23.1392 23.1394 19.2 28.0002 19.2C32.8594 19.2 36.8002 23.1392 36.8002 28Z" stroke="#231F1F"/>
+<path opacity="0.85" fill-rule="evenodd" clip-rule="evenodd" d="M9.6001 28.7999H27.2033V27.2H9.6001V28.7999Z" fill="#231F1F"/>
+<path opacity="0.85" fill-rule="evenodd" clip-rule="evenodd" d="M28.7998 28.7999H46.3998V27.2H28.7998V28.7999Z" fill="#231F1F"/>
+<path opacity="0.85" fill-rule="evenodd" clip-rule="evenodd" d="M27.2002 27.2001H28.8002V9.6001H27.2002V27.2001Z" fill="#231F1F"/>
+<path opacity="0.85" fill-rule="evenodd" clip-rule="evenodd" d="M27.2002 46.4001H28.8002V28.8H27.2002V46.4001Z" fill="#231F1F"/>
+</svg>
